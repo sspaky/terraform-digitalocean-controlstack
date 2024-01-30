@@ -3,12 +3,20 @@
 
 ## Table of Contents
 
-- [Version](#version)
+- [Usage](#usage)
 - [Installation](#installation)
 - [Generated resources](#generated-resources)
 
-## Version
-v0.1.0
+## Usage
+```hcl
+module "example" {
+  source = "github.com/example/module"
+
+  # Module version using SemVer
+  version = "0.1.0"
+
+  # Other module configuration settings...
+}
 
 ## Installation
 Prepare your do_token and pvt_key to initialize connection to Digital Ocean acount
