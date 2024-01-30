@@ -10,12 +10,12 @@
 ## Usage
 ```hcl
 module "example" {
-  source = "github.com/example/module"
+  source = "juraj.spakovsky/terraform-digitalocean-controlstack"
 
   # Module version using SemVer
   version = "0.1.0"
 
-  # Other module configuration settings...
+  # Enter required variables
 }
 ```
 
