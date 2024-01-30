@@ -17,6 +17,7 @@ module "example" {
 
   # Other module configuration settings...
 }
+```
 
 ## Installation
 Prepare your do_token and pvt_key to initialize connection to Digital Ocean acount
