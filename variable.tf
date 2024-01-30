@@ -4,6 +4,12 @@ variable "do_token" {
   description = "Digital Ocean token"
 }
 
+variable "pvt_key" {
+  type		  = "string"
+  required	  = "yes"
+  description = "Your private key as string"
+}
+
 variable "dbname" {
   type		  = "string"
   required	  = "no"
